@@ -1,0 +1,19 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 20px;
+}
+
+.tShirt-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 10px;
+}
+
+.cart-container {
+    background-color: coral;
+    margin: 10px;
+    border-radius: 10px;
+    height: 600px;
+}
