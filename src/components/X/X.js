@@ -1,9 +1,10 @@
 import React from 'react';
 
-const X = () => {
+const X = ({ring}) => {
     return (
         <div>
             <h2>X</h2>
+            <p><small>Gift: {ring}</small></p>
         </div>
     );
 };
