@@ -4,6 +4,7 @@ import Main from './layouts/Main';
 import Home from './components/Home/Home'
 import Orders from './components/Orders/Orders'
 import About from './components/About/About';
+import Activity from './components/Activity/Activity';
 
 function App() {
   const router = createBrowserRouter([
@@ -23,6 +24,10 @@ function App() {
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/activity',
+          element: <Activity></Activity>
         }
       ]
     }
